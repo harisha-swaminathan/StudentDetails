@@ -1,0 +1,55 @@
+.students{
+    color: rgb(163, 160, 160);
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid rgb(204, 203, 203);
+    padding: 10px;
+}
+.student-name{
+    color:black
+}
+.student{
+    text-align: left; 
+    padding: 20px;
+}
+img{
+   border-radius: 50%; 
+   width:150px;
+   height:150px;
+   border: 2px solid rgb(163, 160, 160);
+   display: inline-block;
+}
+input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 2px solid  rgb(163, 160, 160);
+  font-size: 1.5em
+}
+input:focus { 
+    outline: none
+  }
+.tag{
+    display: inline-block;
+    background-color: rgb(199, 198, 198);
+    color:black;
+    font-style: bold;
+    width:4rem;
+    height:2rem;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2px;
+    margin-right: 2px;
+    overflow: hidden;
+}
+.plus,.minus{
+    font-size: 3em;
+    color: rgb(163, 160, 160);
+}
+button{
+    border:none;
+}
+button:focus { 
+    outline: none
+  }
